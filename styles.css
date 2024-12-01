@@ -16,6 +16,14 @@ body {
     justify-content: space-between;
     align-items: center;
   }
+  .membre{
+    display: flex;
+    justify-content: space-around;
+    
+  }
+  .membre>div>img{
+    width: 100%;
+  }
   
   nav ul {
     list-style: none;
@@ -41,7 +49,7 @@ body {
     color: white;
   }
   
-  button {
+  button , input[type="submit"] {
     padding: 10px 20px;
     background: #526E48;
     border: none;
@@ -51,8 +59,10 @@ body {
   }
   
   button:hover {
-    background: #0055cc;
+    background: #87d8a2;
+    ;
   }
+ 
   
   /* Main content styles */
   main {
@@ -106,6 +116,11 @@ body {
   
   .call-to-action h2 {
     font-size: 28px;
+    color: white;
+  }
+  .call-to-action p {
+   
+    color: black;
   }
   
   .call-to-action button {
@@ -121,7 +136,7 @@ body {
   }
   
   footer a {
-    color: #FFD700;
+    color: white;
     text-decoration: none;
   }
   
@@ -130,6 +145,24 @@ body {
   }
   
   img {
-    width: 50%;
+    width: 30%;
     margin: auto;
   }
+  .div1{
+    text-decoration: none;
+    color: white;
+  }
+  .social-icons {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    margin-left: 20%;
+}
+.social-icons a {
+    font-size: 2rem;
+    color: #333;
+    text-decoration: none;
+}
+.social-icons a:hover {
+    color: #007bff; /* Change color on hover */
+}
